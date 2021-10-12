@@ -1,4 +1,4 @@
-This TIMES-DK model version was developed during the COMETS project for analysing the Danish energy system. Read more about it in an open access article available [here]![https://doi.org/10.1016/j.esr.2018.11.003].
+This TIMES-DK model version was developed during the COMETS project for analysing the Danish energy system. Read more about it in an open access article available [here](https://doi.org/10.1016/j.esr.2018.11.003).
 
 The model was used to support climate discussions set out during the summer of 2019. The generated scenarios are shown on https://klimaaftalen2019.tokni.com/
 
