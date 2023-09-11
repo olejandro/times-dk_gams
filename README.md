@@ -3,7 +3,7 @@ This TIMES-DK model version was developed during the COMETS project for analysin
 The model was used to support climate discussions set out during the summer of 2019. The generated scenarios are shown on https://klimaaftalen2019.tokni.com/
 
 To obtain the model, including the TIMES source code, run the following command:
-> git clone --recurse-submodules https://github.com/olejandro/TIMES-DK
+> git clone --recurse-submodules https://github.com/olejandro/times-dk_gams
 
 To run a specific scenario (e.g. Frozen_policy_scenarie) execute the following command from root:
 > GAMS runmodel --comets_scenario=Frozen_policy_scenarie
