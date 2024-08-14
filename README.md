@@ -5,8 +5,8 @@ The model was used to support climate discussions set out during the summer of 2
 To obtain the model, including the TIMES source code, run the following command:
 > git clone --recurse-submodules https://github.com/olejandro/times-dk_gams
 
-To run a specific scenario (e.g. Frozen_policy_scenarie) execute the following command from root:
-> GAMS runmodel --comets_scenario=Frozen_policy_scenarie
+To run a specific scenario (e.g. frozen_policy_scenarie) execute the following command from root:
+> GAMS runmodel --comets_scenario=frozen_policy_scenarie
 
 The model is solved using [HiGHS](https://highs.dev/) by default. Adjust the command to solve it e.g., with CPLEX:
-> GAMS runmodel --comets_scenario=Frozen_policy_scenarie --solve_with=CPLEX
+> GAMS runmodel --comets_scenario=frozen_policy_scenarie --solve_with=CPLEX
