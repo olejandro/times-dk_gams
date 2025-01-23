@@ -10,3 +10,6 @@ To run a specific scenario (e.g. frozen_policy_scenarie) execute the following c
 
 The model is solved using [HiGHS](https://highs.dev/) by default. Adjust the command to solve it e.g., with CPLEX:
 > GAMS runmodel --comets_scenario=frozen_policy_scenarie --solve_with=CPLEX
+
+You can also transform any of the scenarios to a scalar model using [CONVERT](https://www.gams.com/48/docs/S_CONVERT.html). The [options](https://www.gams.com/48/docs/S_CONVERT.html#CONVERT_Language), e.g. MPS format, can be specified in [convert.opt](.\convert.opt).
+> GAMS runmodel --comets_scenario=frozen_policy_scenarie --solve_with=CONVERT
